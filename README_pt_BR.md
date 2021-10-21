@@ -15,6 +15,10 @@ Um bot para o Discord multi-plataforma com uma interface limpa e de fácil insta
 
 [![Setup](http://i.imgur.com/VvXYp5j.png)](https://jmusicbot.com/setup)
 
+## Objetivo
+
+O objetivo do repositório é utilizar os conhecimentos adquiridos durante a matéria de Engenharia de Software 1 para contribuir com o projeto de software livre.
+
 ## Características
   * Fácil de utilizar (tenha Java instalado e inicie!)
   * Carregamento rápido de músicas
@@ -41,11 +45,11 @@ JMusicBot suporta todos as fontes de midia e formatos suportados pelo [lavaplaye
   * MP3
   * FLAC
   * WAV
-  * Matroska/WebM (AAC, Opus or Vorbis codecs)
+  * Matroska/WebM (AAC, Opus ou Vorbis codecs)
   * MP4/M4A (AAC codec)
-  * OGG streams (Opus, Vorbis and FLAC codecs)
+  * OGG streams (Opus, Vorbis e FLAC codecs)
   * AAC streams
-  * Stream playlists (M3U and PLS)
+  * Stream playlists (M3U e PLS)
 
 ## Exemplo
 ![Loading Example...](https://i.imgur.com/kVtTKvS.gif)
