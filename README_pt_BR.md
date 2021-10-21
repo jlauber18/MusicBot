@@ -3,6 +3,7 @@
 # JMusicBot
 
 Um bot para o Discord multi-plataforma com uma interface limpa e de fácil instalação!
+
 O objetivo desse repositório é utilizar os conhecimentos aprendidos durante a máteria de Engenharia de Software 1 para resolver issues.
 
 ## Características
