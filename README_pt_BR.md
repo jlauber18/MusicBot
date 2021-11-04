@@ -17,7 +17,7 @@ Um bot para o Discord multi-plataforma com uma interface limpa e de fácil insta
 
 ## Objetivo
 
-O objetivo do repositório é utilizar os conhecimentos adquiridos durante a matéria de Engenharia de Software 1 para contribuir com o projeto de software livre.
+O repositório é referente ao projeto de Engenharia de Software 1 (BCC35E) do curso de Bacharelado em Ciência da Computação da UTFPR de Campo Mourão/PR. Seu objetivo é desenvolver algumas funcionalidades, considerando o processo de engenharia de software e suas atividades, desde a engenharia de requisitos até a entrega.
 
 ## Características
   * Fácil de utilizar (tenha Java instalado e inicie!)
