@@ -1,6 +1,8 @@
 
 ## Esboço da Arquitetura de Software
 
+O comando "lyrics" é utilizado para pesquisar letras de músicas, no projeto apresentamos algumas propostas para melhorar tal função.
+
 ## Diagrama de Classe
 
 Trajeto padrão para o comando "lyrics".
