@@ -5,7 +5,9 @@ Uma das propostas do projeto é a adição de uma busca padrão de letra de mús
 Ao digitar o comando "lyrics" o software deve mostrar a letra da música que está tocando atualmente mesmo que não seja identificado seu nome.
 
 
-## Diagrama de Classe Issue #1
+## Diagrama de Classe
+
+Trajeto padrão para o comando "lyrics".
 
 <img src="diagramas/1/1-DiagramaClasse.png" width=100% title="Diagrama de Classe"/>
 
@@ -24,10 +26,6 @@ Erro que ocorre quando o comando é lido pelo bot, mas nenhuma música está sen
 Erro que ocorre quando a letra da música não é encontrada.
 
 <img src="diagramas/1/1-DDS-Erro2.png" width=100% title="Diagrama de Sequência Erro 2"/>
-
-## Diagrama de Classe Issue #5
-
-
 
 ## Diagrama de Sequência Issue #5
 
