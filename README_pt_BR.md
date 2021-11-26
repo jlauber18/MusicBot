@@ -65,11 +65,10 @@ Por favor, consulte a [Pagina de Configuração](https://jmusicbot.com/setup) pa
 Este bot (e o código) pode não ser fácil para programadores não experientes. O principal motivo de manter este repositório público é para mostrar as capacidades das bibliotecas, para mostrar aos outros como funciona, e para permitir que aqueles que são experientes com java, JDA, e desenvolvimento de Discord bot contribuam. Existem diversos requisitos e dependências para editar e compilar, e não haverá suporte para aqueles que quiserem fazer mudanças por si próprio. Considere criar um Feature Request (Leia a secção acima). Para qualquer alteração neste software consulte a licença Apache 2.0.
 
 ## Construção do Software
-
-O JMusicBot utiliza o Maven para fazer a construção, então certifique-se de ter a sua última versão instalada. Para construir executamos o **“mvn package”** na pasta raiz do projeto. Após concluído o processo, se bem-sucedido, aparecerá a mensagem:
+O JMusicBot utiliza o Maven para fazer a sua construção, então certifique-se de ter a sua última versão instalada. Para isso executamos o comando **“mvn package”** na pasta raiz do projeto. Após concluído o processo, se bem-sucedido, aparecerá a mensagem:
 
 [INFO] BUILD SUCCESS
 
- E a construção do JMB está completa, e pode ser rodado usando o comando: 
+O JMusicBot pode ser inicializado usando o comando:
 
-**java -cp target/JMusicBot-Snapshot-All.jar com.jagrosh.jmusicbot.JMusicBot**
+**"java -cp target/JMusicBot-Snapshot-All.jar com.jagrosh.jmusicbot.JMusicBot"**
