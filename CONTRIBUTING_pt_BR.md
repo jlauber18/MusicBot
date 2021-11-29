@@ -1,5 +1,7 @@
 ## Descrição dos procedimentos para contribuir para o software.
 
+Ler a secção "Editando" do arquivo **README_pt_BR.md** antes de contibuir com o projeto.
+
 Primeiro passo: é necessária a criação de uma "issue", seja ela para um "bug" ou uma alguma funcionalidade nova (feature request), ou utilizar uma "issue" existente. As "issues" são analisadas e marcadas pelos contribuintes.
 
 Segundo passo: escolher uma "issue" para resolver e fazer o "fork" do projeto.
