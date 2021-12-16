@@ -63,7 +63,7 @@ public class LyricsCmd extends MusicCommand
             title = event.getArgs();
         }
         
-        String betterTitle = title.replaceAll("\\(.*\\)", "").replaceAll("\\[.*\\]", "").replaceAll("\\{.*\\}", "");
+        String betterTitle = title.replaceAll("\\(.*\\)", "").replaceAll("\\[.*\\]", "").replaceAll("\\{.*\\}", "").replaceAll("[^a-zA-Z0-9]", " ");
 
         event.getChannel().sendTyping().queue();
         client.getLyrics(betterTitle).thenAccept(lyrics -> 
