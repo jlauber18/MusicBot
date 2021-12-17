@@ -15,6 +15,7 @@
  */
 package com.jagrosh.jmusicbot.commands.music;
 
+import com.jagrosh.jmusicbot.utils.TitleHandling;
 import com.jagrosh.jdautilities.command.CommandEvent;
 import com.jagrosh.jlyrics.LyricsClient;
 import com.jagrosh.jmusicbot.Bot;
@@ -63,14 +64,12 @@ public class LyricsCmd extends MusicCommand
             title = event.getArgs();
         }
         
-        String betterTitle = title.replaceAll("\\(.*\\)", "").replaceAll("\\[.*\\]", "").replaceAll("\\{.*\\}", "").replaceAll("[^a-zA-Z0-9]", " ");
-
         event.getChannel().sendTyping().queue();
-        client.getLyrics(betterTitle).thenAccept(lyrics -> 
+        client.getLyrics(TitleHandling.replaceTitle(title)).thenAccept(lyrics -> 
         {
             if(lyrics == null)
             {
-                event.replyError("Lyrics for `" + betterTitle + "` could not be found!" + (event.getArgs().isEmpty() ? " Try entering the song name manually (`lyrics [song name]`)" : ""));
+                event.replyError("Lyrics for `" + title + "` could not be found!" + (event.getArgs().isEmpty() ? " Try entering the song name manually (`lyrics [song name]`)" : ""));
                 return;
             }
 
@@ -80,7 +79,7 @@ public class LyricsCmd extends MusicCommand
                     .setTitle(lyrics.getTitle(), lyrics.getURL());
             if(lyrics.getContent().length()>15000)
             {
-                event.replyWarning("Lyrics for `" + betterTitle + "` found but likely not correct: " + lyrics.getURL());
+                event.replyWarning("Lyrics for `" + title + "` found but likely not correct: " + lyrics.getURL());
             }
             else if(lyrics.getContent().length()>2000)
             {
